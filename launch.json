@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/blog.html",
+      "destination": "/about-us.html",
+      "statusCode": 308,
+      "response": {
+        "headers": {
+          "x-powered-by": "launch"
+        }
+      }
+    }
+  ],
+  "rewrites":[{"source":"/old-path","destination":"/new-path","request":{"headers":{"x-secret":"shhh"}},"response":{"headers":{"x-powered-by":"Contentfly"}}}],
   "cache": {
     "cachePriming": {
       "urls": [
