@@ -11,13 +11,5 @@
       }
     }
   ],
-  "rewrites":[{"source":"/old-path","destination":"/new-path","request":{"headers":{"x-secret":"shhh"}},"response":{"headers":{"x-powered-by":"Contentfly"}}}],
-  "cache": {
-    "cachePriming": {
-      "urls": [
-        "/blog.html",
-        "/new-page.html"
-      ]
-    }
-  }
+  "rewrites":[{"source":"/old-path","destination":"/new-path","request":{"headers":{"x-secret":"shhh"}},"response":{"headers":{"x-powered-by":"Contentfly"}}}]
 }
