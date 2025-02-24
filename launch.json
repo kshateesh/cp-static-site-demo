@@ -11,5 +11,6 @@
       }
     }
   ],
-  "rewrites":[{"source":"/old-path","destination":"/new-path","request":{"headers":{"x-secret":"shhh"}},"response":{"headers":{"x-powered-by":"Contentfly"}}}]
+  "rewrites":[{"source":"/old-path","destination":"/new-path","request":{"headers":{"x-secret":"shhh"}},"response":{"headers":{"x-powered-by":"Contentfly"}}}],
+"cache": {            "cachePriming": {              "urls": ['/about-us', '/blog']            }          }
 }
